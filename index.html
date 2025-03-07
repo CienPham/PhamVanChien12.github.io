@@ -3,243 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio 3D - Giới Thiệu Nghề Nghiệp</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <title>Phạm Văn Chiến - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Loader -->
-    <div class="loader">
-        <div>
-            <div class="loader-bar">
-                <div class="loader-progress"></div>
-            </div>
-            <div class="loader-text">Đang tải...</div>
-        </div>
-    </div>
-
-    <!-- Header -->
     <header>
-        <a href="#" class="logo">Portfolio<span>3D</span></a>
-        <nav class="navbar">
-            <a href="#home">Trang Chủ</a>
-            <a href="#about">Giới Thiệu</a>
-            <a href="#services">Dịch Vụ</a>
-            <a href="#portfolio">Dự Án</a>
-            <a href="#contact">Liên Hệ</a>
-        </nav>
-        <div class="menu-btn">☰</div>
+        <div class="container">
+            <div class="profile-img">
+                <div class="profile-initial">P</div>
+            </div>
+            <h1>Phạm Văn Chiến</h1>
+            <p class="subtitle">Fullstack Developer | Sinh viên năm 4</p>
+        </div>
     </header>
-
-    <!-- Hero Section with 3D Canvas -->
-    <section id="home">
-        <div id="canvas-container">
-            <div class="hero-content">
-                <h1>Xin chào, tôi là <span>Người Thiết Kế 3D</span></h1>
-                <p>Chuyên thiết kế và phát triển mô hình 3D chuyên nghiệp với hơn 5 năm kinh nghiệm. Tôi tạo ra những trải nghiệm 3D ấn tượng, sáng tạo và đẳng cấp.</p>
-                <a href="#portfolio" class="btn">Xem Dự Án</a>
-                <a href="#contact" class="btn secondary">Liên Hệ</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section-padding">
-        <div class="section-title">
-            <h2>Về Tôi</h2>
-            <p>Khám phá hành trình và kỹ năng của tôi trong lĩnh vực thiết kế 3D</p>
-        </div>
-        <div class="about-container">
-            <div class="about-img">
-                <img src="/api/placeholder/400/320" alt="Hình ảnh giới thiệu">
-            </div>
+    
+    <section class="section" id="about">
+        <div class="container">
+            <h2>Giới Thiệu</h2>
             <div class="about-content">
-                <h3>Chuyên Gia Thiết Kế & Phát Triển 3D</h3>
-                <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực thiết kế 3D, tôi đã làm việc với nhiều khách hàng từ các công ty khởi nghiệp đến các doanh nghiệp lớn. Tôi chuyên về mô hình hóa 3D, hoạt hình, kết xuất và trực quan hóa kiến trúc. Đam mê của tôi là tạo ra những trải nghiệm 3D đẹp mắt và chân thực.</p>
-                <p>Tôi luôn cập nhật các công nghệ và xu hướng mới nhất trong ngành. Bằng cách kết hợp kỹ thuật và tính thẩm mỹ, tôi luôn mang đến những giải pháp sáng tạo và hiệu quả cho khách hàng.</p>
-                <div class="skills">
-                    <span class="skill-tag">Blender</span>
-                    <span class="skill-tag">Maya</span>
-                    <span class="skill-tag">3DS Max</span>
-                    <span class="skill-tag">ZBrush</span>
-                    <span class="skill-tag">Cinema 4D</span>
-                    <span class="skill-tag">Unreal Engine</span>
-                    <span class="skill-tag">Unity</span>
-                    <span class="skill-tag">Substance Painter</span>
-                    <span class="skill-tag">Three.js</span>
+                <div class="about-text">
+                    <p>Xin chào! Tôi là Phạm Văn Chiến, sinh viên năm 4 chuyên ngành Công nghệ thông tin tại trường Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH). Với niềm đam mê phát triển phần mềm, tôi đã tích lũy được nhiều kinh nghiệm trong cả Front-end và Back-end.</p>
+                    <p>Tôi luôn tìm kiếm cơ hội để áp dụng những kiến thức đã học vào các dự án thực tế, đồng thời không ngừng học hỏi công nghệ mới để nâng cao kỹ năng chuyên môn của mình.</p>
                 </div>
-                <a href="#contact" class="btn">Liên Hệ Ngay</a>
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="info-title">Họ tên:</span>
+                        <span>Phạm Văn Chiến</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Sinh viên:</span>
+                        <span>Năm 4 - Đại học HUTECH</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Chuyên ngành:</span>
+                        <span>Công nghệ thông tin</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Email:</span>
+                        <span>phamvanchien@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Địa chỉ:</span>
+                        <span>Thành phố Hồ Chí Minh, Việt Nam</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section-padding">
-        <div class="section-title">
-            <h2>Dịch Vụ</h2>
-            <p>Những dịch vụ thiết kế 3D chuyên nghiệp mà tôi cung cấp</p>
-        </div>
-        <div class="services-container">
-            <div class="service-card">
-                <i>🏛️</i>
-                <h3>Mô Hình Kiến Trúc 3D</h3>
-                <p>Tạo ra những mô hình 3D chân thực cho các dự án kiến trúc, nội thất và quy hoạch đô thị.</p>
-            </div>
-            <div class="service-card">
-                <i>🎮</i>
-                <h3>Thiết Kế Game</h3>
-                <p>Phát triển nhân vật, môi trường và tài sản 3D cho các trò chơi điện tử và trải nghiệm tương tác.</p>
-            </div>
-            <div class="service-card">
-                <i>🎬</i>
-                <h3>Hoạt Hình 3D</h3>
-                <p>Tạo hoạt hình nhân vật và kể chuyện thông qua video hoạt hình 3D chất lượng cao.</p>
-            </div>
-            <div class="service-card">
-                <i>👓</i>
-                <h3>AR/VR</h3>
-                <p>Thiết kế và phát triển trải nghiệm thực tế ảo và thực tế tăng cường sống động.</p>
-            </div>
-            <div class="service-card">
-                <i>🖥️</i>
-                <h3>Web 3D</h3>
-                <p>Tích hợp mô hình 3D vào trang web để tạo ra trải nghiệm tương tác độc đáo.</p>
-            </div>
-            <div class="service-card">
-                <i>📱</i>
-                <h3>Sản Phẩm 3D</h3>
-                <p>Tạo mẫu 3D cho sản phẩm, bao bì và trực quan hóa sản phẩm.</p>
+    
+    <section class="section" id="skills" style="background-color: #f0f7ff;">
+        <div class="container">
+            <h2>Kỹ Năng</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>Front-end</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Vue.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Back-end</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PHP/Laravel</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Java Spring Boot</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>RESTful API</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Khác</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SQL/MongoDB</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Docker</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git/GitHub</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section-padding">
-        <div class="section-title">
+    
+    <section class="section" id="projects">
+        <div class="container">
             <h2>Dự Án</h2>
-            <p>Khám phá một số dự án 3D tiêu biểu của tôi</p>
-        </div>
-        <div class="portfolio-filter">
-            <button class="filter-btn active" data-filter="all">Tất Cả</button>
-            <button class="filter-btn" data-filter="architecture">Kiến Trúc</button>
-            <button class="filter-btn" data-filter="character">Nhân Vật</button>
-            <button class="filter-btn" data-filter="product">Sản Phẩm</button>
-            <button class="filter-btn" data-filter="animation">Hoạt Hình</button>
-        </div>
-        <div class="portfolio-grid">
-            <div class="portfolio-item" data-category="architecture">
-                <img src="/api/placeholder/400/320" alt="Dự án kiến trúc" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Thiết Kế Biệt Thự</h3>
-                    <p>Mô hình hóa và kết xuất kiến trúc</p>
-                    <a href="#">Xem Chi Tiết</a>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="HuTech Connect">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HuTech Connect</h3>
+                        <p>Nền tảng kết nối sinh viên và doanh nghiệp, giúp tạo cơ hội thực tập và việc làm cho sinh viên HUTECH. Dự án đã kết nối thành công hơn 200 sinh viên với các doanh nghiệp trong ngành CNTT.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="portfolio-item" data-category="character">
-                <img src="/api/placeholder/400/320" alt="Nhân vật game" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Nhân Vật Game RPG</h3>
-                    <p>Thiết kế và tạo hình nhân vật</p>
-                    <a href="#">Xem Chi Tiết</a>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="SmartClass">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SmartClass</h3>
+                        <p>Hệ thống quản lý lớp học thông minh cho phép giảng viên tạo lớp, giao bài tập, và quản lý điểm số. Sinh viên có thể nộp bài, tham gia thảo luận và nhận phản hồi trực tiếp từ giảng viên.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="portfolio-item" data-category="product">
-                <img src="/api/placeholder/400/320" alt="Thiết kế sản phẩm" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Smartwatch Concept</h3>
-                    <p>Mô hình hóa sản phẩm</p>
-                    <a href="#">Xem Chi Tiết</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="animation">
-                <img src="/api/placeholder/400/320" alt="Hoạt hình nhân vật" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Phim Ngắn Hoạt Hình</h3>
-                    <p>Hoạt hình và kể chuyện</p>
-                    <a href="#">Xem Chi Tiết</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="architecture">
-                <img src="/api/placeholder/400/320" alt="Thiết kế nội thất" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Nội Thất Hiện Đại</h3>
-                    <p>Mô hình hóa và kết xuất nội thất</p>
-                    <a href="#">Xem Chi Tiết</a>
-                </div>
-            </div>
-            <div class="portfolio-item" data-category="product">
-                <img src="/api/placeholder/400/320" alt="Thiết kế bao bì" class="portfolio-img">
-                <div class="portfolio-overlay">
-                    <h3>Thiết Kế Bao Bì</h3>
-                    <p>Mô hình hóa và trực quan hóa bao bì</p>
-                    <a href="#">Xem Chi Tiết</a>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/320" alt="EcoShop">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">EcoShop</h3>
+                        <p>Sàn thương mại điện tử chuyên về các sản phẩm thân thiện với môi trường. Tích hợp nhiều tính năng như thanh toán trực tuyến, đánh giá sản phẩm, và tính toán lượng khí thải carbon được giảm thiểu.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding">
-        <div class="section-title">
+    
+    <section class="section" id="contact" style="background-color: #f0f7ff;">
+        <div class="container">
             <h2>Liên Hệ</h2>
-            <p>Liên hệ với tôi để thảo luận về dự án của bạn</p>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Liên Hệ Với Tôi</h3>
-                <p>Bạn có dự án cần thiết kế 3D? Hãy liên hệ với tôi để thảo luận chi tiết. Tôi luôn sẵn sàng hỗ trợ và tư vấn cho bạn.</p>
-                <div class="contact-details">
-                    <div>
-                        <i>📱</i>
-                        <span>+84 123 456 789</span>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Nếu bạn quan tâm đến việc hợp tác hoặc có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với tôi qua các phương thức sau:</p>
+                    <div class="info-item" style="margin-top: 20px;">
+                        <span class="info-title">Email:</span>
+                        <span>phamvanchien@example.com</span>
                     </div>
-                    <div>
-                        <i>✉️</i>
-                        <span>info@portfolio3d.com</span>
+                    <div class="info-item">
+                        <span class="info-title">Điện thoại:</span>
+                        <span>(+84) 123 456 789</span>
                     </div>
-                    <div>
-                        <i>📍</i>
-                        <span>Hà Nội, Việt Nam</span>
+                    <div class="info-item">
+                        <span class="info-title">Địa chỉ:</span>
+                        <span>475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM</span>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">GH</a>
+                        <a href="#" class="social-link">LI</a>
+                        <a href="#" class="social-link">TW</a>
                     </div>
                 </div>
-                <div class="social-links">
-                    <a href="#"><i>f</i></a>
-                    <a href="#"><i>in</i></a>
-                    <a href="#"><i>tw</i></a>
-                    <a href="#"><i>ig</i></a>
-                    <a href="#"><i>be</i></a>
-                </div>
-            </div>
-            <div class="contact-form">
-                <form id="contactForm">
+                
+                <div class="contact-form">
                     <div class="form-group">
-                        <label for="name">Họ Tên</label>
-                        <input type="text" id="name" required>
+                        <label for="name">Họ tên</label>
+                        <input type="text" id="name" placeholder="Nhập họ tên của bạn">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email" placeholder="Nhập địa chỉ email của bạn">
                     </div>
                     <div class="form-group">
-                        <label for="subject">Chủ Đề</label>
-                        <input type="text" id="subject" required>
+                        <label for="subject">Tiêu đề</label>
+                        <input type="text" id="subject" placeholder="Nhập tiêu đề">
                     </div>
                     <div class="form-group">
-                        <label for="message">Tin Nhắn</label>
-                        <textarea id="message" required></textarea>
+                        <label for="message">Nội dung</label>
+                        <textarea id="message" placeholder="Nhập nội dung tin nhắn"></textarea>
                     </div>
-                    <button type="submit" class="btn">Gửi Tin Nhắn</button>
-                </form>
+                    <button type="submit">Gửi tin nhắn</button>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
+    
     <footer>
-        <p>&copy; 2025 Portfolio3D. Thiết kế bởi <a href="#" style="color: var(--primary-color);">Người Thiết Kế 3D</a></p>
+        <div class="container">
+            <p>© 2025 Phạm Văn Chiến - Sinh viên HUTECH. Tất cả các quyền được bảo lưu.</p>
+        </div>
     </footer>
-
 </body>
-<script src="main.js"></script>
-
 </html>
