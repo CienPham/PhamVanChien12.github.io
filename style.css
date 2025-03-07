@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -27,17 +26,17 @@ header {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 3px solid #2c3e50;
     margin-bottom: 20px;
     object-fit: cover;
     background-color: #ddd;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
